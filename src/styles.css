@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(39, 33, 33);
+  font-family: sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 6rem auto;
+  background-color: white;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 20px 5px black;
+}
+
+.playbox,
+.actions {
+  width: 80%;
+  margin: 2rem auto;
+  background-color: rgb(39, 33, 33);
+  border-radius: 0.2rem;
+  box-shadow: 0 0 20px 1px rgb(39, 33, 33);
+  padding: 1rem;
+}
+
+.game {
+  background-color: white;
+  margin: 0 auto;
+}
+
+.game td {
+  height: 3rem;
+  width: 3rem;
+  border: 1px dashed rgb(39, 33, 33);
+  font-size: 2rem;
+  cursor: pointer;
+  color: black;
+}
+
+.actions button {
+  height: 1.8rem;
+  width: 10.5rem;
+  font-size: medium;
+  font-weight: 700;
+  cursor: pointer;
+}
