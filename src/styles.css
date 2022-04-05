@@ -2,21 +2,20 @@ body {
   background-color: rgb(39, 33, 33);
   font-family: sans-serif;
   display: flex;
-  justify-content: "center";
-  align-items: "center";
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .container {
   width: 80%;
-  margin: 6rem auto;
+  vertical-align: middle;
   background-color: white;
-  padding: 2rem;
+  padding: 3rem;
   text-align: center;
   border-radius: 0.2rem;
   box-shadow: 0 0 20px 5px black;
-  display: flex;
-  justify-content: "center";
-  align-items: "center";
 }
 
 .playbox,
