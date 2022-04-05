@@ -1,6 +1,9 @@
 body {
   background-color: rgb(39, 33, 33);
   font-family: sans-serif;
+  display: flex;
+  justify-content: "center";
+  align-items: "center";
 }
 
 .container {
