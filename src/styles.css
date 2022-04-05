@@ -9,10 +9,12 @@ body {
 }
 
 .container {
-  width: 80%;
-  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: white;
-  padding: 3rem;
+  padding: 2rem 3.5rem;
   text-align: center;
   border-radius: 0.2rem;
   box-shadow: 0 0 20px 5px black;
@@ -21,11 +23,17 @@ body {
 .playbox,
 .actions {
   width: 80%;
-  margin: 2rem auto;
+  margin: 1.5rem 0;
   background-color: rgb(39, 33, 33);
   border-radius: 0.2rem;
   box-shadow: 0 0 20px 1px rgb(39, 33, 33);
   padding: 1rem;
+}
+
+.actions {
+  width: 100%;
+  background-color: transparent;
+  padding: 0;
 }
 
 .game {
@@ -43,9 +51,14 @@ body {
 }
 
 .actions button {
-  height: 1.8rem;
-  width: 10.5rem;
+  height: 100%;
+  width: 100%;
+  padding: 0.5rem 1rem;
   font-size: medium;
-  font-weight: 700;
+  letter-spacing: 2;
   cursor: pointer;
+  background-color: rgb(39, 33, 33);
+  border-radius: 0.2rem;
+  border: none;
+  color: white;
 }
